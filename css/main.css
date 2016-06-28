@@ -1,0 +1,111 @@
+* {
+	font-family: 'Athiti', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	margin-top: 1rem;
+}
+
+hr {
+	margin-top: .5rem;
+	border: solid 2px #aaa;
+	border-radius: 2px;
+	margin-bottom: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	margin: 0;
+	padding: 10px;
+}
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
+.splash {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.sm-center {
+	text-align: center;
+}
+
+.apps {
+	text-align: center;
+	margin: .5rem;
+
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.muted {
+	color: #bbb;
+}
+
+.author {
+	font-weight: 100;
+	font-family: 'Chathura', sans-serif;
+	font-size: 10rem;
+	line-height: 5rem;
+
+}
+
+.tag {
+	font-size: 4rem;
+}
+
+.name {
+	line-height: 1rem;
+	margin: .5rem;
+	padding-top: .5rem;
+	color: #666;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 450px) and (max-width:500px) {
+	.title{
+		max-width: 50%;
+		float: right;
+	}
+
+}
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+}
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.sm-center {
+		text-align: left;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
